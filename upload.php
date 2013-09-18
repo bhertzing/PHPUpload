@@ -1,4 +1,3 @@
-
 <?php
 // (c)2012 Rackspace Hosting
 // See COPYING for licensing information
@@ -26,7 +25,7 @@ $ostore = $connection->ObjectStore();
 
 // next, make a container named 'Sample'
 $cont = $ostore->Container();
-$cont->Create(array('name'=>'XXXXXXXXXX')); // cahnge phptest to your container name
+$cont->Create(array('name'=>'XXXXXXXXXX')); // change phptest to your container name
 
 // finally, create an object in that container named hello.txt
 $obj = $cont->DataObject();;
